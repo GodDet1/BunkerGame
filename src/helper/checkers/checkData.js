@@ -58,7 +58,7 @@ function checkData(cards, data) {
 
     newCards.push(newCard);
   }
-
+  console.log(newCards);
   return newCards;
 }
 

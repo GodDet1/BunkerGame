@@ -8,9 +8,9 @@ function createCards(data, playersCount) {
     cards.push(createCard(data));
   }
 
-  checkData(cards, data);
+  const checkedCards = checkData(cards, data);
 
-  return cards;
+  return checkedCards;
 }
 
 export default createCards;
