@@ -602,8 +602,10 @@
     "Накачаное",
     "Перекачанное"
   ],
-  "maxAge": 80,
+  "maxAge": 90,
   "minAge": 18,
+  "minAverageAge": 33,
+  "maxAverageAge": 36,
   "maxBunkerSquare": 280,
   "minBunkerSquare": 80,
   "haveChild": [true, false],

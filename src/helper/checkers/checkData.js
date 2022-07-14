@@ -1,4 +1,5 @@
 import checkonTrue from './checkonTrue';
+import checkYear from './checkYear';
 
 function checkData(cards, data) {
   const additionalInfoArr = [];
@@ -46,12 +47,14 @@ function checkData(cards, data) {
 
   const newGenderData = checkonTrue(genderArr, data);
   const newChildData = checkonTrue(childArr, data);
+  const newYears = checkYear(oldArr, data);
 
   const newCards = [];
   for (let i = 0; i < cards.length; i++) {
     const newCard = { ...cards[i] };
     newCard.gender = newGenderData[i];
     newCard.child = newChildData[i];
+    newCard.old = newYears[i];
 
     newCards.push(newCard);
   }
