@@ -5,7 +5,6 @@ export default function checkYear(year, data) {
   const midYear = yearSum / year.length;
 
   if (midYear > data.minAverageAge && midYear < data.maxAverageAge) {
-    console.log(midYear);
     return year;
   }
 

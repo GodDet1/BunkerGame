@@ -21,7 +21,10 @@ function recursionChangeData(data, dataBaseItem, dataArr) {
   const negative = data.false;
   const delta = (positive / negative) * 100;
 
-  if (delta > 65 && delta < 135) {
+  if (
+    delta > 100 - dataBaseItem.percentageNegative &&
+    delta < 100 + dataBaseItem.percentagePositive
+  ) {
     return dataArr;
   }
 
