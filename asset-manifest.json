@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/BunkerGame/static/css/main.48ff9be3.css",
-    "main.js": "/BunkerGame/static/js/main.16d233bd.js",
+    "main.js": "/BunkerGame/static/js/main.d6a58700.js",
     "index.html": "/BunkerGame/index.html",
     "main.48ff9be3.css.map": "/BunkerGame/static/css/main.48ff9be3.css.map",
-    "main.16d233bd.js.map": "/BunkerGame/static/js/main.16d233bd.js.map"
+    "main.d6a58700.js.map": "/BunkerGame/static/js/main.d6a58700.js.map"
   },
   "entrypoints": [
     "static/css/main.48ff9be3.css",
-    "static/js/main.16d233bd.js"
+    "static/js/main.d6a58700.js"
   ]
 }
